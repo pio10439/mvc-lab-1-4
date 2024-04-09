@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+</head>
+<body>
+    <h1><%= heading %></h1>
+    <form action="/add-student" method="post">
+        <label for="fullName">Pełne imię i nazwisko:</label>
+        <input type="text" id="fullName" name="fullName">
+        <br>
+        <label for="code">Kod:</label>
+        <input type="text" id="code" name="code">
+        <br>
+        <label for="fieldOfStudies">Kierunek studiów:</label>
+        <input type="text" id="fieldOfStudies" name="fieldOfStudies">
+        <br>
+        <input type="submit" value="Add student">
+    </form>
+</body>
+</html>
